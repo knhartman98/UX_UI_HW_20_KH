@@ -1,0 +1,71 @@
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo{
+width: 23%;
+padding: 1%;
+text-align: center;
+}
+
+nav{
+margin-left: auto;
+}
+
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 50px;
+}
+
+.navigation li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.heroImg{
+    height: 600px;
+    padding: 25px;
+}
+
+.content{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.footer{
+display: inline-block;
+vertical-align: top;
+}
+
+.footer ul{
+    list-style-type: none;
+}
+
+.footer li{
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+.footer ul{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-areas: 'User Research User Flows Wireframing'
+}
+
+@media only screen and (max-width: 600) {
+    display: grid;
+    grid-template-areas: 'User Research User Flows Wireframing'
+}
